@@ -32,8 +32,8 @@ Hoverboard kartı (veya diğer Arduino) bu değerleri gerçek MPU-6050 verisiymi
 # Hoverboard Hareketleri <--> MPU-6050 Sensör Ekseni
 
 
- | Hoverboard Hareketi | İvmeölçer (Accel) | Jiroskop (Gyro) | Açıklama |
- | --- | --- | --- | --- |
+| Hoverboard Hareketi | İvmeölçer (Accel) | Jiroskop (Gyro) | Açıklama |
+| --- | --- | --- | --- |
 | İleri gitmek için öne eğilme | AX > 0 | GX > 0 | Kullanıcı öne doğru eğiliyor, kart ileri hareket komutu algılar.
 | Geri gitmek için geriye eğilme | AX < 0 | GX < 0 | Kullanıcı geriye eğiliyor, kart geri hareket komutu algılar.
 | Sağa eğilme / yatma | AY > 0 | GY > 0 | Hoverboard sağ tarafa yatıyor (dengeyi sağlamak veya dönüş başlatmak için).
@@ -44,9 +44,10 @@ Hoverboard kartı (veya diğer Arduino) bu değerleri gerçek MPU-6050 verisiymi
 
 ## Örnek Senaryolar
 
-AX = 6000, GY = 0, GZ = 0 → Kullanıcı biraz öne eğilmiş → Hoverboard yavaşça ileri gidiyor.
 
-AX = 0, GY = -300, GZ = -500 → Hoverboard sola doğru yatıp sola dönüyor.
-
-AZ = 16384, AX = 0, AY = 0, GX=GY=GZ=0 → Hoverboard tamamen sabit, düz zeminde duruyor.
+| İvmeölçer (Accel) | Jiroskop (Gyro) |Jiroskop (Gyro) | İvmeölçer (Accel) | Açıklama |
+| --- | --- | --- | --- | --- |
+| AX = 6000 | GY = 0 | GZ = 0 | - | → Kullanıcı biraz öne eğilmiş → Hoverboard yavaşça ileri gidiyor.
+| AX = 0 | GY = -300 | GZ = -500 | - | → Hoverboard sola doğru yatıp sola dönüyor.
+| AZ = 16384 | AX = 0 | AY = 0 | GX=GY=GZ=0 | → Hoverboard tamamen sabit, düz zeminde duruyor.
 
