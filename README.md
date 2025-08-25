@@ -118,7 +118,7 @@ Hoverboard’un sağa/sola dönmesi
    Sol ← AY (−)          AY (+) → Sağ
    Z ekseni ↑↓ (AZ) = Yerçekimi
    GZ = Hoverboard’un sağa/sola dönmesi
-
+---
 
 ### ✅ Özet:
 
