@@ -156,8 +156,11 @@ Hoverboard’un sağa/sola dönmesi
 
           ↑ AX (+) ileri eğim
           ↓ AX (−) geri eğim
+
    Sol ← AY (−)          AY (+) → Sağ
+
    Z ekseni ↑↓ (AZ) = Yerçekimi
+
    GZ = Hoverboard’un sağa/sola dönmesi
    
 ```
