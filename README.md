@@ -32,8 +32,8 @@ Hoverboard kartı (veya diğer Arduino) bu değerleri gerçek MPU-6050 verisiymi
 # Hoverboard Hareketleri <--> MPU-6050 Sensör Ekseni
 
 
-## | Hoverboard Hareketi | İvmeölçer (Accel) | Jiroskop (Gyro) | Açıklama |
-## | --- | --- | --- | --- |
+ | Hoverboard Hareketi | İvmeölçer (Accel) | Jiroskop (Gyro) | Açıklama |
+ | --- | --- | --- | --- |
 
 | İleri gitmek için öne eğilme | AX > 0 | GX > 0 | Kullanıcı öne doğru eğiliyor, kart ileri hareket komutu algılar. |
 
