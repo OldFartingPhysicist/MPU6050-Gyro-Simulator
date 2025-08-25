@@ -108,16 +108,14 @@ GZ → Dikey eksende dönme hızı (yaw hızı)
 
 Hoverboard’un sağa/sola dönmesi
 
-### 🖼️ Basit Görsel Şema (Metin ile)
+### 🖼️ Basit Görsel Şema
          Hoverboard Üstten Görünüm
      --------------------------------
       Ön → (ileri gitme yönü)
 
           ↑ AX (+) ileri eğim
           ↓ AX (−) geri eğim
-
    Sol ← AY (−)          AY (+) → Sağ
-
    Z ekseni ↑↓ (AZ) = Yerçekimi
    GZ = Hoverboard’un sağa/sola dönmesi
 
