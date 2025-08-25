@@ -149,7 +149,7 @@ Hoverboard’un sağa/sola dönmesi
 
 ### 🖼️ Basit Görsel Şema
 
-'''
+```
          Hoverboard Üstten Görünüm
      --------------------------------
           Ön (ileri gitme yönü)
@@ -160,7 +160,7 @@ Hoverboard’un sağa/sola dönmesi
    Z ekseni ↑↓ (AZ) = Yerçekimi
    GZ = Hoverboard’un sağa/sola dönmesi
    
-'''
+```
 
 ### ✅ Özet:
 
