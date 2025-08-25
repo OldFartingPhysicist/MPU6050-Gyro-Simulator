@@ -55,3 +55,10 @@ AX = 6000, GY = 0, GZ = 0 → Kullanıcı biraz öne eğilmiş → Hoverboard ya
 AX = 0, GY = -300, GZ = -500 → Hoverboard sola doğru yatıp sola dönüyor.
 
 AZ = 16384, AX = 0, AY = 0, GX=GY=GZ=0 → Hoverboard tamamen sabit, düz zeminde duruyor.
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
