@@ -1,6 +1,6 @@
-#Kullanım
+# Kullanım
 (Geliştirme aşamasında, kod çalışmayabilir)
-##Arduino’yu tak, bu kodu yükle.
+## Arduino’yu tak, bu kodu yükle.
 Serial Monitor’u aç (115200 baud).
 Komut yaz:
 AX=5000 → X ivmesini değiştirir.
