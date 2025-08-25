@@ -34,20 +34,13 @@ Hoverboard kartı (veya diğer Arduino) bu değerleri gerçek MPU-6050 verisiymi
 
  | Hoverboard Hareketi | İvmeölçer (Accel) | Jiroskop (Gyro) | Açıklama |
  | --- | --- | --- | --- |
-
-| İleri gitmek için öne eğilme | AX > 0 | GX > 0 | Kullanıcı öne doğru eğiliyor, kart ileri hareket komutu algılar. |
-
-Geri gitmek için geriye eğilme    AX < 0                GX < 0             Kullanıcı geriye eğiliyor, kart geri hareket komutu algılar.
-
-Sağa eğilme / yatma               AY > 0                GY > 0             Hoverboard sağ tarafa yatıyor (dengeyi sağlamak veya dönüş başlatmak için).
-
-Sola eğilme / yatma               AY < 0                GY < 0             Hoverboard sol tarafa yatıyor.
-
-Yerçekimi (düz zeminde duruş)     AZ ≈ +16384	            -	               Cihaz sabit, Z ekseni 1g gösterir.
-
-Düz dururken sağa dönme (yaw)	        -                 GZ > 0             Hoverboard sağa dönüyor.
-
-Düz dururken sola dönme (yaw)      	  -	                GZ < 0             Hoverboard sola dönüyor.
+| İleri gitmek için öne eğilme | AX > 0 | GX > 0 | Kullanıcı öne doğru eğiliyor, kart ileri hareket komutu algılar.
+| Geri gitmek için geriye eğilme | AX < 0 | GX < 0 | Kullanıcı geriye eğiliyor, kart geri hareket komutu algılar.
+| Sağa eğilme / yatma | AY > 0 | GY > 0 | Hoverboard sağ tarafa yatıyor (dengeyi sağlamak veya dönüş başlatmak için).
+| Sola eğilme / yatma | AY < 0  | GY < 0 | Hoverboard sol tarafa yatıyor.
+| Yerçekimi (düz zeminde duruş | AZ ≈ +1638 | - | Cihaz sabit, Z ekseni 1g gösterir.
+| Düz dururken sağa dönme (yaw) | - | GZ > 0 | Hoverboard sağa dönüyor.
+| Düz dururken sola dönme (yaw) | -	| GZ < 0 | Hoverboard sola dönüyor.
 
 ## Örnek Senaryolar
 
