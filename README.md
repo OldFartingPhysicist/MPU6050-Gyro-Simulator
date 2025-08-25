@@ -30,6 +30,7 @@ AZ=16384 → 1g yerçekimi simülasyonu.
 Hoverboard kartı (veya diğer Arduino) bu değerleri gerçek MPU-6050 verisiymiş gibi okuyacak.
 
 # Hoverboard Hareketleri <--> MPU-6050 Sensör Ekseni
+
 ## | Hoverboard Hareketi | İvmeölçer (Accel) | Jiroskop (Gyro) | Açıklama |
 ## | --- | --- | --- | --- |
 
