@@ -53,6 +53,45 @@ Hoverboard kartı (veya diğer Arduino) bu değerleri gerçek MPU-6050 verisiymi
 
 ## Detaylı Açıklama
 
+### MPU-6050’den Gelen Veri Formatı
+
+MPU-6050, ivme (accelerometer) ve jiroskop (gyroscope) verilerini 16-bit signed integer (−32768 … +32767) olarak döndürür.
+
+İvmeölçer (AX, AY, AZ)
+
+Yerçekimi ivmesini (g) ve lineer hareketi ölçer.
+
+Default hassasiyet: ±2g (yani 1g ≈ 16384).
+
+Örnekler:
+
+AX = 16384 → 1g (cihaz X ekseninde tamamen yerçekimine hizalı)
+
+AX = 0 → Yerçekimi X ekseninde yok (düz konumda)
+
+AZ = 16384 → Cihaz masada düz duruyor (Z ekseni aşağıya bakıyor).
+
+🔹 Programdaki örnekte:
+
+AX = 5000 ≈ 0.3g demektir → Hoverboard/cihaz X ekseninde biraz öne doğru eğilmiş gibi görünüyor.
+
+Jiroskop (GX, GY, GZ)
+
+Açısal hızı (°/s – derece/saniye) ölçer.
+
+Default hassasiyet: ±250°/s → 1 LSB ≈ 131.
+
+Örnekler:
+
+GY = 131 → Y ekseninde saniyede 1° dönme var.
+
+GY = −200 → Y ekseninde yaklaşık −1.5°/s dönüş var.
+
+🔹 Programdaki örnekte:
+
+GY = -200 → Hoverboard, Y ekseninde hafif ters yönde dönüyormuş gibi davranıyor.
+
+
 ### Özet (Programdaki Verilerin Yorumu)
 
 AX = 5000 → Cihaz X ekseninde yaklaşık 0.3g ivmeye maruz (hafif eğim veya ivmelenme).
@@ -111,7 +150,7 @@ Hoverboard’un sağa/sola dönmesi
 ### 🖼️ Basit Görsel Şema
          Hoverboard Üstten Görünüm
      --------------------------------
-      Ön → (ileri gitme yönü)
+          Ön (ileri gitme yönü)
 
           ↑ AX (+) ileri eğim
           ↓ AX (−) geri eğim
